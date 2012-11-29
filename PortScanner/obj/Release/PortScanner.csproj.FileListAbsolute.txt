@@ -1,0 +1,8 @@
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\bin\Release\PortScanner.exe
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\bin\Release\PortScanner.pdb
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\obj\Release\ResolveAssemblyReference.cache
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\obj\Release\PortScanner.Form1.resources
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\obj\Release\PortScanner.Properties.Resources.resources
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\obj\Release\PortScanner.csproj.GenerateResource.Cache
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\obj\Release\PortScanner.exe
+C:\Users\BUKT0P\Desktop\4 курс\Программно аппаратная ЗИ\Сканер портов\PortScanner\PortScanner\obj\Release\PortScanner.pdb

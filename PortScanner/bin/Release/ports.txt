@@ -1,0 +1,1428 @@
+1	TCP-MUX - TCP Port Service Multiplexer
+2	COMPRESSNET - Management Utility
+3	COMPRESSNET - Compression Process
+5	RJE - Remote Job Entry
+7	ECHO - Echo
+9	DISCARD - Discard
+11	SYSSTAT - System Status
+13	DAYTIME - Daytime
+15	NETSTAT - Network Status
+17	QOTD - Quote of the Day
+18	MSP - Message Send Protocol
+19	CHARGEN - Character Generator
+20	FTP-DATA - File Transfer Protocol [Default Data]
+21	FTP - File Transfer Protocol [Control]
+22	SSH - SSH (Secure Shell) Remote Login Protocol
+23	TELNET - Telnet
+24	PMS - Private Mail System
+25	SMTP - Simple Mail Transfer Protocol
+27	NSW-FE - NSW User System FE
+29	MSG-ICP - Messege ICP
+31	MSG-AUTH - Messege Authentication
+33	DSP - Display Support Protocol
+35	PPS - Private Printer Server
+37	TIME - Time
+38	RAP - Route Access Protocol
+39	RLP - Resource Location Protocol
+41	GRAPHICS - Graphics
+42	NAMESERVER - Host Name Server
+43	WHOIS - Who Is
+44	MPM-FLAGS - MPM FLAGS Protocol
+45	MPM - Message Processing Module [recv]
+46	MPM-SND - MPM [default send]
+47	NI-FTP - NI FTP (File Transfer Protocol)
+48	AUDITD - Digital Audit Daemon
+49	BBN-LOGIN - Login Host Protocol (TACACS)
+50	RE-MAIL-CK - Remote Mail Checking Protocol
+51	LA-MAINT - IMP Logical Address Maintenance
+52	XNS-TIME - XNS Time Protocol
+53	DOMAIN - Domain Name Server
+54	XNS-CH - XNS Clearinghouse
+55	ISI-GL - ISI Graphics Language
+56	XNS-AUTH - XNS Authentication
+57	MTP - Private terminal access
+58	XNS-MAIL - XNS Mail
+59	PFS - Private File System
+60	Unassigned
+61	NI-MAIL - NI MAIL
+62	ACAS - ACA Services
+63	WHOIS++ - whois++
+64	COVIA - Communications Integrator (CI)
+65	TACACS-DS - TACACS-Database Service
+66	SQL*NET - Oracle SQL*NET
+67	BOOTPS - Bootstrap Protocol Server
+68	BOOTPC - Bootstrap Protocol Client
+69	TFTP - Trivial File Transfer Protocol
+70	GOPHER - Gopher
+71	NETRJS-1 - Remote Job Service
+72	NETRJS-2 - Remote Job Service
+73	NETRJS-3 - Remote Job Service
+74	NETRJS-4 - Remote Job Service
+75	PDOS - Private dial out service
+76	DEOS - Distributed External Object Store
+77	RJE - Private RJE (Remote Job Entry) service
+78	VETTCP - vettcp
+79	FINGER - Finger
+80	WWW-HTTP - World Wide Web HTTP (Hyper Text Transfer Protocol)
+81	HOSTS2-NS - HOSTS2 Name Server
+82	XFER - XFER Utility
+83	MIT-ML-DEV - MIT ML Device
+84	CTF - Common Trace Facility
+85	MIT-ML-DEV - MIT ML Device
+86	MFCOBOL - Micro Focus Cobol
+87	LINK - Private terminal link
+88	KERBEROS - Kerberos
+89	SU-MIT-TG - SU/MIT Telnet Gateway
+90	DNSIX - DNSIX Securit Attribute Token Map
+91	MIT-DOV - MIT Dover Spooler
+92	NPP - Network Printing Protocol
+93	DCP - Device Control Protocol
+94	OBJCALL - Tivoli Object Dispatcher
+95	SUPDUP - SUPDUP
+96	DIXIE - DIXIE Protocol Specification
+97	SWIFT-RVF - Swift Remote Virtural File Protocol
+98	TACNEWS - TAC News
+99	METAGRAM - Metagram Relay
+100	NEWACCT - [unauthorized use]
+101	HOSTNAMES - NIC Host Name Server
+102	ISO-TSAP - ISO-TSAP Class 0
+103	X400 - x400
+104	X400-SND - x400-snd
+105	CSNET-NS - Mailbox Name Nameserver
+106	3COM-TSMUX - 3COM-TSMUX
+107	RTELNET - Remote Telnet Service
+108	SNAGAS - SNA Gateway Access Server
+109	POP - Post Office Protocol - Version 2
+110	POP3 - Post Office Protocol - Version 3
+111	SUNRPC - SUN Remote Procedure Call
+112	MCIDAS - McIDAS Data Transmission Protocol
+113	IDENT - Authentication Service
+114	AUDIONEWS - Audio News Multicast
+115	SFTP - Simple File Transfer Protocol
+116	ANSANOTIFY - ANSA REX Notify
+117	UUCP-PATH - UUCP Path Service
+118	SQLSERV - SQL Services
+119	NNTP - Network News Transfer Protocol
+120	CFDPTKT - CFDPTKT
+121	ERPC - Encore Expedited Remote Pro.Call
+122	SMAKYNET - SMAKYNET
+123	NTP - Network Time Protocol
+124	ANSATRADER - ANSA REX Trader
+125	LOCUS-MAP - Locus PC-Interface Net Map Ser
+126	UNITARY - Unisys Unitary Login
+127	LOCUS-CON - Locus PC-Interface Conn Server
+128	GSS-XLICEN - GSS X License Verification
+129	PWDGEN - Password Generator Protocol
+130	CISCO-FNA - cisco FNATIVE
+131	CISCO-TNA - cisco TNATIVE
+132	CISCO-SYS - cisco SYSMAINT
+133	STATSRV - Statistics Service
+134	INGRES-NET - INGRES-NET Service
+135	RPC-LOCATOR - RPC (Remote Procedure Call) Location Service
+136	PROFILE - PROFILE Naming System
+137	NETBIOS-NS - NETBIOS Name Service
+138	NETBIOS-DGM - NETBIOS Datagram Service
+139	NETBIOS-SSN - NETBIOS Session Service
+140	EMFIS-DATA - EMFIS Data Service
+141	EMFIS-CNTL - EMFIS Control Service
+142	BL-IDM - Britton-Lee IDM
+143	IMAP - Interim Mail Access Protocol v2
+144	NEWS - NewS
+145	UAAC - UAAC Protocol
+146	ISO-TP0 - ISO-IP0
+147	ISO-IP - ISO-IP
+148	CRONUS - CRONUS-SUPPORT
+149	AED-512 - AED 512 Emulation Service
+150	SQL-NET - SQL-NET
+151	HEMS - HEMS
+152	BFTP - Background File Transfer Program
+153	SGMP - SGMP
+154	NETSC-PROD - NETSC
+155	NETSC-DEV - NETSC
+156	SQLSRV - SQL Service
+157	KNET-CMP - KNET/VM Command/Message Protocol
+158	PCMAIL-SRV - PCMail Server
+159	NSS-ROUTING - NSS-Routing
+160	SGMP-TRAPS - SGMP-TRAPS
+161	SNMP - SNMP (Simple Network Management Protocol)
+162	SNMPTRAP - SNMPTRAP (Simple Network Management Protocol)
+163	CMIP-MAN - CMIP/TCP Manager
+164	CMIP-AGENT - CMIP/TCP Agent
+165	XNS-COURIER - Xerox
+166	S-NET - Sirius Systems
+167	NAMP - NAMP
+168	RSVD - RSVD
+169	SEND - SEND
+170	PRINT-SRV - Network PostScript
+171	MULTIPLEX - Network Innovations Multiplex
+172	CL/1 - Network Innovations CL/1
+173	XYPLEX-MUX - Xyplex
+174	MAILQ - MAILQ
+175	VMNET - VMNET
+176	GENRAD-MUX - GENRAD-MUX
+177	XDMCP - X Display Manager Control Protocol
+178	NEXTSTEP - NextStep Window Server
+179	BGP - Border Gateway Protocol
+180	RIS - Intergraph
+181	UNIFY - Unify
+182	AUDIT - Unisys Audit SITP
+183	OCBINDER - OCBinder
+184	OCSERVER - OCServer
+185	REMOTE-KIS - Remote-KIS
+186	KIS - KIS Protocol
+187	ACI - Application Communication Interface
+188	MUMPS - Plus Five`s MUMPS
+189	QFT - Queued File Transport
+190	GACP - Gateway Access Control Protocol
+191	PROSPERO - Prospero Directory Service
+192	OSU-NMS - OSU Network Monitoring System
+193	SRMP - Spider Remote Monitoring Protocol
+194	IRC - Internet Relay Chat Protocol
+195	DN6-NLM-AUD - DNSIX Network Level Module Audit
+196	DN6-SMM-RED - DNSIX Session Mgt Module Audit Redir
+197	DLS - Directory Location Service
+198	DLS-MON - Directory Location Service Monitor
+199	SMUX - SMUX
+200	SRC - IBM System Resource Controller
+201	AT-RTMP - AppleTalk Routing Maintenance
+202	AT-NBP - AppleTalk Name Binding
+203	AT-3 - AppleTalk Unused
+204	AT-ECHO - AppleTalk Echo
+205	AT-5 - AppleTalk Unused
+206	AT-ZIS - AppleTalk Zone Information
+207	AT-7 - AppleTalk Unused
+208	AT-8 - AppleTalk Unused
+209	QMTP - The Quick Mail Transfer Protocol
+210	Z39.50 - ANSI Z39.50
+211	914C/G - Texas Instruments 914C/G Terminal
+212	ANET - ATEXSSTR
+213	IPX - IPX
+214	VMPWSCS - VM PWSCS
+215	SOFTPC - Insignia Solutions
+216	CAILIC - Computer Associates Int`l License Server
+217	DBASE - dBASE Unix
+218	MPP - Netix Message Posting Protocol
+219	UARPS - Unisys ARPs
+220	IMAP3 - Interactive Mail Access Protocol v3
+221	FLN-SPX - Berkeley rlogind with SPX auth
+222	RSH-SPX - Berkeley rshd with SPX auth
+223	CDC - Certificate Distribution Center
+242	DIRECT -
+243	SUR-MEAS - Survey Measurement
+244	DAYNA -
+245	LINK - LINK
+246	DSP3270 - Display Systems Protocol
+247	SUBNTBCST_TFTP -
+248	BHFHS -
+256	RAP -
+257	SET - Secure Electronic Transaction
+258	YAK-CHAT - Yak Winsock Personal Chat
+259	ESRO-GEN - Efficient Short Remote Operations
+260	OPENPORT -
+261	NSIIOPS - IIOP Name Service Over TLS/SSL
+262	ARCISDMS -
+263	HDAP -
+264	BGMP -
+280	HTTP-MGMT -
+281	PERSONAL-LINK -
+282	CABLEPORT-AX - Cable Port A/X
+308	NOVASTORBAKCUP - Novastor Backup
+309	ENTRUSTTIME -
+310	BHMDS -
+311	ASIP-WEBADMIN - Appleshare IP Webadmin
+312	VSLMP -
+313	MAGENTA-LOGIC -
+314	OPALIS-ROBOT -
+315	DPSI -
+316	DECAUTH -
+317	ZANNET -
+321	PIP -
+344	PDAP - Prospero Data Access Protocol
+345	PAWSERV - Perf Analysis Workbench
+346	ZSERV - Zebra server
+347	FATSERV - Fatmen Server
+348	CSI-SGWP - Cabletron Management Protocol
+349	MFTP -
+350	MATIP-TYPE-A - MATIP Type A
+351	MATIP-TYPE-B - MATIP Type B or bhoetty
+352	DTAG-STE-SB - DTAG, or bhoedap4
+353	NDSAUTH -
+354	BH611 -
+355	DATEX-ASN -
+356	CLOANTO-NET-1 - Cloanto Net 1
+357	BHEVENT -
+358	SHRINKWRAP -
+359	TENEBRIS_NTS - Tenebris Network Trace Service
+360	SCOI2ODIALOG -
+361	SEMANTIX -
+362	SRSSEND - SRS Send
+363	RSVP_TUNNEL -
+364	AURORA-CMGR -
+365	DTK - Deception Tool Kit
+366	ODMR -
+367	MORTGAGEWARE -
+368	QBIKGDP -
+369	RPC2PORTMAP -
+370	CODAAUTH2 -
+371	CLEARCASE - Clearcase
+372	ULISTSERV - Unix Listserv
+373	LEGENT-1 - Legent Corporation
+374	LEGENT-2 - Legent Corporation
+375	HASSLE - Hassle
+376	NIP - Amiga Envoy Network Inquiry Proto
+377	TNETOS - NEC Corporation
+378	DSETOS - NEC Corporation
+379	IS99C - TIA/EIA/IS-99 modem client
+380	IS99S - TIA/EIA/IS-99 modem server
+381	HP-COLLECTOR - HP Performance Data Collector
+382	HP-MANAGED-NODE - HP Performance Data Managed Node
+383	HP-ALARM-MGR - HP Performance Data Alarm Manager
+384	ARNS - A Remote Network Server System
+385	IBM-APP - IBM Application 386
+387	AURP - Appletalk Update-Based Routing Pro.
+388	UNIDATA-LDM - Unidata LDM Version 4
+389	LDAP - Lightweight Directory Access Protocol
+390	UIS - UIS
+391	SYNOTICS-RELAY - SynOptics SNMP Relay Port
+392	SYNOTICS-BROKER - SynOptics Port Broker Port
+393	DIS - Data Interpretation System
+394	EMBL-NDT - EMBL Nucleic Data Transfer
+395	NETCP - NETscout Control Protocol
+396	NETWARE-IP - Novell Netware over IP
+397	MPTN - Multi Protocol Trans. Net.
+398	KRYPTOLAN - Kryptolan
+399	ISO-TSAP-C2 - ISO Transport Class 2 Non-Control over TCP
+400	WORK-SOL - Workstation Solutions
+401	UPS - Uninterruptible Power Supply
+402	GENIE - Genie Protocol
+403	DECAP - decap
+404	NCED - nced
+405	NCLD - ncld
+406	IMSP - Interactive Mail Support Protocol
+407	TIMBUKTU - Timbuktu
+408	PRM-SM - Prospero Resource Manager Sys. Man.
+409	PRM-NM - Prospero Resource Manager Node Man.
+410	DECLADEBUG - DECLadebug Remote Debug Protocol
+411	RMT - Remote MT Protocol
+412	SYNOPTICS-TRAP - Trap Convention Port
+413	SMSP - SMSP
+414	INFOSEEK - InfoSeek
+415	BNET - BNet
+416	SILVERPLATTER - Silverplatter
+417	ONMUX - Onmux
+418	HYPER-G - Hyper-G
+419	ARIEL1 - Ariel
+420	SMPTE - SMPTE
+421	ARIEL2 - Ariel
+422	ARIEL3 - Ariel
+423	OPC-JOB-START - IBM Operations Planning and Control Start
+424	OPC-JOB-TRACK - IBM Operations Planning and Control Track
+425	ICAD-EL - ICAD
+426	SMARTSDP - smartsdp
+427	SVRLOC - Server Location
+428	OCS_CMU - OCS_CMU
+429	OCS_AMU - OCS_AMU
+430	UTMPSD - UTMPSD
+431	UTMPCD - UTMPCD
+432	IASD - IASD
+433	NNSP - NNSP
+434	MOBILEIP-AGENT - MobileIP-Agent
+435	MOBILIP-MN - MobilIP-MN
+436	DNA-CML - DNA-CML
+437	COMSCM - comscm
+438	DSFGW - dsfgw
+439	DASP - dasp
+440	SGCP - sgcp
+441	DECVMS-SYSMGT - decvms-sysmgt
+442	CVC_HOSTD - cvc_hostd
+443	HTTPS - HTTPS 
+444	SNPP - Simple Network Paging Protocol
+445	MICROSOFT-DS - Microsoft-DS
+446	DDM-RDB - DDM-RDB
+447	DDM-DFM - DDM-RFM
+448	DDM-BYTE - DDM-BYTE
+449	AS-SERVERMAP - AS Server Mapper
+450	TSERVER - TServer
+451	SFS-SMP-NET - Cray Network Semaphore server
+452	SFS-CONFIG - Cray SFS config server
+453	CREATIVESERVER - CreativeServer
+454	CONTENTSERVER - ContentServer
+455	CREATIVEPARTNR - CreativePartnr
+456	MACON-TCP - macon-tcp
+457	SCOHELP - scohelp
+458	APPLEQTC - Apple Quick Time
+459	AMPR-RCMD - ampr-rcmd
+460	SKRONK - skronk
+461	DATASURFSRV - DataRampSrv
+462	DATASURFSRVSEC - DataRampSrvSec
+463	ALPES - alpes
+464	KPASSWD - kpasswd
+465	SSMTP - ssmtp
+466	DIGITAL-VRC - digital-vrc
+467	MYLEX-MAPD - mylex-mapd
+468	PHOTURIS - proturis
+469	RCP - Radio Control Protocol
+470	SCX-PROXY - scx-proxy
+471	MONDEX - Mondex
+472	LJK-LOGIN - ljk-login
+473	HYBRID-POP - hybrid-pop
+474	TN-TL-W1 - tn-tl-w1
+475	TCPNETHASPSRV - tcpnethaspsrv
+476	TN-TL-FD1 - tn-tl-fd1
+477	SS7NS - ss7ns
+478	SPSC - spsc
+479	IAFSERVER - iafserver
+480	IAFDBASE - iafdbase
+481	PH - Ph service
+482	BGS-NSI - bgs-nsi
+483	ULPNET - ulpnet
+484	INTEGRA-SME - Integra Software Management Environment
+485	POWERBURST - Air Soft Power Burst
+486	AVIAN - avian
+487	SAFT - saft
+488	GSS-HTTP - gss-http
+489	NEST-PROTOCOL - nest-protocol
+490	MICOM-PFS - micom-pfs
+491	GO-LOGIN - go-login
+492	TICF-1 - Transport Independent Convergence for FNA
+493	TICF-2 - Transport Independent Convergence for FNA
+494	POV-RAY - POV-Ray
+495	INTECOURIER -
+496	PIM-RP-DISC -
+497	DANTZ -
+498	SIAM -
+499	ISO-ILL - ISO ILL Protocol
+500	ISAKMP -
+501	STMF -
+502	ASA-APPL-PROTO -
+503	INTRINSA -
+504	CITADEL -
+505	MAILBOX-LM -
+506	OHIMSRV -
+507	CRS -
+508	XVTTP -
+509	SNARE -
+510	FCP - FirstClass Protocol
+511	PASSGO -
+512	EXEC - Remote Process Execution
+513	LOGIN - Remote Login via Telnet;
+514	SHELL - Automatic Remote Process Execution
+515	PRINTER - Printer Spooler
+516	VIDEOTEX -
+517	TALK -
+518	NTALK -
+519	UTIME - Unix Time
+520	EFS - Extended File Server
+521	RIPNG -
+522	ULP -
+523	IBM-DB2 -
+524	NCP -
+525	TIMED - Time Server 526
+527	STX - Stock IXChange
+528	CUSTIX - Customer IXChange
+529	IRC-SERV -
+530	COURIER - rpc
+531	CONFERENCE - chat
+532	NETNEWS - readnews
+533	NETWALL - Emergency Broadcasts
+534	MM-ADMIN - MegaMedia Admin
+535	IIOP -
+536	OPALIS-RDV -
+537	NMSP - Networked Media Streaming Protocol
+538	GDOMAP -
+539	APERTUS-LDP - Apertus Technologies Load Determination
+540	UUCP - UUCPD (Unix to Unix Copy)
+541	UUCP-RLOGIN - uucp (Unix to Unix Copy) - rlogin (Remote Login)
+542	COMMERCE -
+543	KLOGIN -
+544	KSHELL - krcmd
+545	APPLEQTCSRVR - Apple qtcsrvr
+546	DHCP-CLIENT - DHCP (Dynamic Host Configuration Protocol) Client
+547	DHCP-SERVER - DHCP (Dynamic Host Configuration Protocol) Server
+548	AFPOVERTCP - AFP over TCP
+549	IDFP -
+550	NEW-RWHO - new-who
+551	CYBERCASH - CyberCash
+552	DEVICESHARE - deviceshare
+553	PIRP - pirp
+554	RTSP - Real Time Stream Control Protocol
+555	DSF -
+556	REMOTEFS - rfs (Remote File System) server
+557	OPENVMS-SYSIPC - openvms-sysipc
+558	SDNSKMP - SDNSKMP
+559	TEEDTAP - TEEDTAP
+560	RMONITOR - rmonitord
+561	MONITOR -
+562	CHSHELL - chcmd
+563	SNEWS - snews
+564	9PFS - plan 9 file service
+565	WHOAMI - whoami
+566	STREETTALK - streettalk
+567	BANYAN-RPC - banyan-rpc
+568	MS-SHUTTLE - Microsoft Shuttle
+569	MS-ROME - Microsoft Rome
+570	METER - demon
+571	METER - udemon
+572	SONAR - sonar
+573	BANYAN-VIP - banyan-vip
+574	FTP-AGENT - FTP Software Agent System
+575	VEMMI - VEMMI
+576	IPCD -
+577	VNAS -
+578	IPDD -
+579	DECBSRV -
+580	SNTP-HEARTBEAT -
+581	BDP - Bundle Discovery Protocol
+582	SCC-SECURITY -
+583	PHILIPS-VC - PHilips Video-Conferencing
+584	KEYSERVER -
+585	IMAP4-SSL - IMAP4+SSL
+586	PASSWORD-CHG -
+587	SUBMISSION -
+588	CAL -
+589	EYELINK -
+590	TNS-CML -
+591	HTTP-ALT - FileMaker, Inc. - HTTP Alternate
+592	EUDORA-SET -
+593	HTTP-RPC-EPMAP - HTTP RPC Ep Map
+594	TPIP -
+595	CAB-PROTOCOL -
+596	SMSD -
+597	PTCNAMESERVICE - PTC Name Service
+598	SCO-WEBSRVRMG3 - SCO Web Server Manager 3
+599	ACP - Aeolon Core Protocol
+600	IPCSERVER - Sun IPC server
+606	URM - Cray Unified Resource Manager
+607	NQS - nqs
+608	SIFT-UFT - Sender-Initiated/Unsolicited File Transfer
+609	NPMP-TRAP - npmp-trap
+610	NPMP-LOCAL - npmp-local
+611	NPMP-GUI - npmp-gui
+628	QMQP - Qmail Quick Mail Queueing
+633	SERVSTAT - Service Status update (Sterling Software)
+634	GINAD - ginad
+635	MOUNT - NFS Mount Service
+636	LDAPSSL - LDAP Over SSL
+640	PCNFS - PC-NFS DOS Authentication
+650	BWNFS - BW-NFS DOS Authentication
+666	DOOM - doom Id Software
+674	PORT
+704	ELCSD - errlog copy/server daemon
+709	ENTRUSTMANAGER - EntrustManager
+729	NETVIEWDM1 - IBM NetView DM/6000 Server/Client
+730	NETVIEWDM2 - IBM NetView DM/6000 send/tcp
+731	NETVIEWDM3 - IBM NetView DM/6000 receive/tcp
+737	SOMETIMES-RPC2 - Rusersd on my OpenBSD Box
+740	NETCP - NETscout Control Protocol
+741	NETGW - netGW
+742	NETRCS - Network based Rev. Cont. Sys.
+744	FLEXLM - Flexible License Manager
+747	FUJITSU-DEV - Fujitsu Device Control
+748	RIS-CM - Russell Info Sci Calendar Manager
+749	KERBEROS-ADM - kerberos administration
+750	KERBEROS-SEC -
+751	KERBEROS_MASTER -
+752	QRH -
+753	RRH -
+754	KBR5_PROP -
+758	NLOGIN -
+759	CON -
+760	NS -
+761	RXE -
+762	QUOTAD -
+763	CYCLESERV -
+764	OMSERV -
+765	WEBSTER -
+767	PHONEBOOK - phone
+769	VID -
+770	CADLOCK -
+771	RTIP -
+772	CYCLESERV2 -
+773	SUBMIT -
+774	RPASSWD -
+775	ENTOMB -
+776	WPAGES -
+780	WPGS -
+781	HP-COLLECTOR - HP Performance Data Collector
+782	HP-MANAGED-NODE - HP Performance Data Managed Node
+783	HP-ALARM-MGR - HP Performance Data Alarm Manager
+786	CONCERT - Concert
+799	CONTROLIT -
+800	MDBS_DAEMON -
+801	DEVICE -
+808	PORT
+871	SUPFILESRV 
+888	CDDATABASE - CDDataBase
+901	PORT
+911	Dark Shadow
+989	FTPS-DATA - FTP Over TLS/SSL
+990	FTP Control TLS/SSL
+992	TELNETS - telnet protocol over TLS/SSL
+993	IMAPS - Imap4 protocol over TLS/SSL
+995	POP3S - Pop3 (Post Office Protocol) over TLS/SSL
+996	VSINET - vsinet
+997	MAITRD -
+998	BUSBOY -
+999	PUPROUTER -
+1000	CADLOCK -
+1001	Silence
+1008	UFSD - UFSD
+1010	Doly-Trojan
+1011	Doly-Trojan
+1012	Doly-Trojan
+1015	Doly-Trojan
+1023	RESERVED - Reserved
+1024	OLD_FINGER - old_finger
+1025	LISTEN - listen
+1026	NTERM - nterm
+1027	NT
+1028	NT
+1029	NT
+1030	IAD1 - BBN IAD
+1031	IAD2 - BBN IAD
+1032	IAD3 - BBN IAD
+1033	NT
+1034	NT
+1035	NT
+1036	NT
+1037	NT
+1038	NT
+1039	NT
+1040	NT
+1041	NT
+1042	Bla
+1043	NT
+1044	NT
+1045	Rasmin
+1046	NT
+1047	NT
+1048	NT
+1049	NT
+1058	NIM - nim
+1059	NIMREG - nimreg
+1067	INSTL_BOOTS - Installation Bootstrap Proto. Serv.
+1068	INSTL_BOOTC - Installation Bootstrap Proto. Cli.
+1080	SOCKS - Socks
+1083	ANSOFT-LM-1 - Anasoft License Manager
+1084	ANSOFT-LM-2 - Anasoft License Manager
+1090	Xtreme
+1103	XAUDIO - Xaserver
+1109	KPOP - kpop
+1110	NFSD-STATUS - Cluster Status Info
+1112	MSQL - Mini-SQL Server
+1127	SUPFILEDBG - SUP Debugging
+1155	NFA - Network File Access
+1167	PHONE - Conference Calling
+1170	Psyber Stream Server, Streaming Audio trojan, Voice
+1178	SKKSERV - SKK (Kanji Input)
+1212	LUPA - lupa
+1222	NERV - SNI R&D network
+1234	Ultors Trojan
+1241	MSG - Remote Message Server
+1243	BackDoor-G, SubSeven, SubSeven Apocalypse
+1245	Voodoo Doll
+1248	HERMES - Multi Media Conferencing
+1269	Mavericks Matrix
+1330	PORT
+1346	ALTA-ANA-LM - Alta Analytics License Manager
+1347	BBN-MMC - Multi Media Conferencing
+1348	BBN-MMX - Multi Media Conferencing
+1349	SBOOK - Registration Network Protocol
+1350	EDITBENCH - Registration Network Protocol
+1351	EQUATIONBUILDER - Digital Tool Works (MIT)
+1352	LOTUSNOTE - Lotus Note
+1353	RELIEF - Relief Consulting
+1354	RIGHTBRAIN - RightBrain Software
+1355	INTUITIVE EDGE - Intuitive Edge
+1356	CUILLAMARTIN - CuillaMartin Company
+1357	PEGBOARD - Electronic PegBoard
+1358	CONNLCLI - CONNLCLI
+1359	FTSRV - FTSRV
+1360	MIMER - MIMER
+1361	LINX - LinX
+1362	TIMEFLIES - TimeFlies
+1363	NDM-REQUESTER - Network DataMover Requester
+1364	NDM-SERVER - Network DataMover Server
+1365	ADAPT-SNA - Network Software Associates
+1366	NETWARE-CSP - Novell NetWare Comm Service Platform
+1367	DCS - DCS
+1368	SCREENCAST - ScreenCast
+1369	GV-US - GlobalView to Unix Shell
+1370	US-GV - Unix Shell to GlobalView
+1371	FC-CLI - Fujitsu Config Protocol
+1372	FC-SER - Fujitsu Config Protocol
+1373	CHROMAGRAFX - Chromagrafx
+1374	MOLLY - EPI Software Systems
+1375	BYTEX - Bytex
+1376	IBM-PPS - IBM Person to Person Software
+1377	CICHLID - Cichlid License Manager
+1378	ELAN - Elan License Manager
+1379	DBREPORTER - Integrity Solutions
+1380	TELESIS-LICMAN - Telesis Network License Manager
+1381	APPLE-LICMAN - Apple Network License Manager
+1382	UDT_OS -
+1383	GWHA - GW Hannaway Network License Manager
+1384	OS-LICMAN - Objective Solutions License Manager
+1385	ATEX_ELMD - Atex Publishing License Manager
+1386	CHECKSUM - CheckSum License Manager
+1387	CADSI-LM - Computer Aided Design Software Inc LM
+1388	OBJECTIVE-DBC - Objective Solutions DataBase Cache
+1389	ICLPV-DM - Document Manager
+1390	ICLPV-SC - Storage Controller
+1391	ICLPV-SAS - Storage Access Server
+1392	ICLPV-PM - Print Manager
+1393	ICLPV-NLS - Network Log Server
+1394	ICLPV-NLC - Network Log Client
+1395	ICLPV-WSM - PC Workstation Manager software
+1396	DVL-ACTIVEMAIL - DVL Active Mail
+1397	AUDIO-ACTIVMAIL - Audio Active Mail
+1398	VIDEO-ACTIVMAIL - Video Active Mail
+1399	CADKEY-LICMAN - Cadkey License Manager
+1400	CADKEY-TABLET - Cadkey Tablet Daemon
+1401	GOLDLEAF-LICMAN - Goldleaf License Manager
+1402	PRM-SM-NP - Prospero Resource Manager
+1403	PRM-NM-NP - Prospero Resource Manager
+1404	IGI-LM - Infinite Graphics License Manager
+1405	IBM-RES - IBM Remote Execution Starter
+1406	NETLABS-LM - NetLabs License Manager
+1407	DBSA-LM - DBSA License Manager
+1408	SOPHIA-LM - Sophia License Manager
+1409	HERE-LM - Here License Manager
+1410	HIQ - HiQ License Manager
+1411	AF - AudioFile
+1412	INNOSYS - InnoSys
+1413	INNOSYS-ACL - Innosys-ACL
+1414	IBM-MQSERIES - IBM MQSeries
+1415	DBSTAR - DBStar
+1416	NOVELL-LU6.2 - Novell LU6.2
+1417	TIMBUKTU-SRV1 - Timbuktu Service 1 Port
+1418	TIMBUKTU-SRV2 - Timbuktu Service 2 Port
+1419	TIMBUKTU-SRV3 - Timbuktu Service 3 Port
+1420	TIMBUKTU-SRV4 - Timbuktu Service 4 Port
+1421	GANDALF-LM - Gandalf License Manager
+1422	AUTODESK-LM - Autodesk License Manager
+1423	ESSBASE - Essbase Arbor Software
+1424	HYBRID - Hybrid Encryption Protocol
+1425	ZION-LM - Zion Software License Manager
+1426	SAIS - Satellite-data Acquisition System 1
+1427	MLOADD - mloadd monitoring tool
+1428	INFORMATIK-LM - Informatik License Manager
+1429	NMS - Hypercom NMS
+1430	TPDU - Hypercom TPDU
+1431	RGTP - Reverse Gossip Transport
+1432	BLUEBERRY-LM - Blueberry Software License Manager
+1433	MS-SQL-S - Microsoft-SQL-Server
+1434	MS-SQL-M - Microsoft-SQL-Monitor
+1435	IBM-CICS - IBM CICS
+1436	SAISM - Satellite-data Acquisition System 2
+1437	TABULA - Tabula
+1438	EICON-SERVER - Eicon Security Agent/Server
+1439	EICON-X25 - Eicon X25/SNA Gateway
+1440	EICON-SLP - Eicon Service Location Protocol
+1441	CADIS-1 - Cadis License Management
+1442	CADIS-2 - Cadis License Management
+1443	IES-LM - Integrated Engineering Software
+1444	MARCAM-LM - Marcam License Management
+1445	PROXIMA-LM - Proxima License Manager
+1446	ORA-LM - Optical Research Associates License Manager
+1447	APRI-LM - Applied Parallel Research LM
+1448	OC-LM - OpenConnect License Manager
+1449	PEPORT - PEport
+1450	DWF - Tandem Distributed Workbench Facility
+1451	INFOMAN - IBM Information Management
+1452	GTEGSC-LM - GTE Government Systems License Man
+1453	GENIE-LM - Genie License Manager
+1454	INTERHDL_ELMD - interHDL License Manager
+1455	ESL-LM - ESL License Manager
+1456	DCA - DCA
+1457	VALISYS-LM - Valisys License Manager
+1458	NRCABQ-LM - Nichols Research Corp.
+1459	PROSHARE1 - Proshare Notebook Application
+1460	PROSHARE2 - Proshare Notebook Application
+1461	IBM_WRLESS_LAN - IBM Wireless LAN
+1462	WORLD-LM - World License Manager
+1463	NUCLEUS - Nucleus
+1464	MSL_LMD - MSL License Manager
+1465	PIPES - Pipes Platform
+1466	OCEANSOFT-LM - Ocean Software License Manager
+1467	CSDMBASE - CSDMBASE
+1468	CSDM - CSDM
+1469	AAL-LM - Active Analysis Limited License Manager
+1470	UAIACT - Universal Analytics
+1471	CSDMBASE - csdmbase
+1472	CSDM - csdm
+1473	OPENMATH - OpenMath
+1474	TELEFINDER - Telefinder
+1475	TALIGENT-LM - Taligent License Manager
+1476	CLVM-CFG - clvm-cfg
+1477	MS-SNA-SERVER - ms-sna-server
+1478	MS-SNA-BASE - ms-sna-base
+1479	DBEREGISTER - dberegister
+1480	PACERFORUM - PacerForum
+1481	AIRS - AIRS
+1482	MITEKSYS-LM - Miteksys License Manager
+1483	AFS - AFS License Manager
+1484	CONFLUENT - Confluent License Manager
+1485	LANSOURCE - LANSource
+1486	NMS_TOPO_SERV - nms_topo_serv
+1487	LOCALINFOSRVR - LocalInfoSrvr
+1488	DOCSTOR - DocStor
+1489	DMDOCBROKER - dmdocbroker
+1490	INSITU-CONF - insitu-conf
+1491	ANYNETGATEWAY - anynetgateway
+1492	STONE-DESIGN-1 - stone-design-1
+1493	NETMAP_LM - netmap_lm
+1494	ICA - ica
+1495	CVC - cvc
+1496	LIBERTY-LM - liberty-lm
+1497	RFX-LM - rfx-lm
+1498	WATCOM-SQL - Watcom-SQL
+1499	FHC - Federico Heinz Consultora
+1500	VLSI-LM - VLSI License Manager
+1501	SAISCM - Satellite-data Acquisition System 3
+1502	SHIVADISCOVERY - Shiva
+1503	IMTC-MCS - Databeam
+1504	EVB-ELM - EVB Software Engineering License Manager 1505
+1506	UTCD - Universal Time daemon (utcd)
+1507	SYMPLEX - symplex
+1508	DIAGMOND - diagmond
+1509	ROBCAD-LM - Robcad Ltd. License Manager
+1510	MVX-LM - Midland Valley Exploration Ltd. Lic. Man.
+1511	3L-L1 - 3l-l1
+1512	WINS - Microsoft`s Windows Internet Name Service
+1513	FUJITSU-DTC - Fujitsu Systems Business of America Inc
+1514	FUJITSU-DTCNS - Fujitsu Systems Business of America Inc
+1515	IFOR-PROTOCOL - ifor-protocol
+1516	VPAD - Virtual Places Audio data
+1517	VPAC - Virtual Places Audio control
+1518	VPVD - Virtual Places Video data
+1519	VPVC - Virtual Places Video control
+1520	ATM-ZIP-OFFICE - atm zip office
+1521	NCUBE-LM - nCube License Manager
+1522	RNA-LM - Ricardo North America License Manager
+1523	CICHILD-LM - cichild
+1524	INGRESLOCK - ingres
+1525	PROSPERO-NP - Prospero Directory Service non-priv
+1526	PDAP-NP - Prospero Data Access Prot non-priv
+1527	TLISRV - oracle
+1528	MCIAUTOREG - micautoreg
+1529	COAUTHOR - oracle
+1530	RAP-SERVICE - rap-service
+1531	RAP-LISTEN - rap-listen
+1532	MIROCONNECT - miroconnect
+1533	VIRTUAL-PLACES - Virtual Places Software
+1534	MICROMUSE-LM - micromuse-lm
+1535	AMPR-INFO - ampr-info
+1536	AMPR-INTER - ampr-inter
+1537	SDSC-LM - isi-lm
+1538	3DS-LM - 3ds-lm
+1539	INTELLISTOR-LM - Intellistor License Manager
+1540	RDS - rds
+1541	RDS2 - rds2
+1542	GRIDGEN-ELMD - gridgen-elmd
+1543	SIMBA-CS - simba-cs
+1544	ASPECLMD - aspeclmd
+1545	VISTIUM-SHARE - vistium-share
+1546	ABBACCURAY - abbaccuray
+1547	LAPLINK - laplink
+1548	AXON-LM - Axon License Manager
+1549	SHIVAHOSE - Shiva Hose
+1550	3M-IMAGE-LM - Image Storage license manager 3M Company
+1551	HECMTL-DB - HECMTL-DB
+1552	PCIARRAY - pciarray
+1553	SNA-CS - sna-cs
+1554	CACI-LM - CACI Products Company License Manager
+1555	LIVELAN - livelan
+1556	ASHWIN - AshWin CI Tecnologies
+1557	ARBORTEXT-LM - ArborText License Manager
+1558	XINGMPEG - xingmpeg
+1559	WEB2HOST - web2host
+1560	ASCI-VAL - asci-val
+1561	FACILITYVIEW - facilityview
+1562	PCONNECTMGR - pconnectmgr
+1563	CADABRA-LM - Cadabra License Manager
+1564	PAY-PER-VIEW - Pay-Per-View
+1565	WINDDLB - WinDD
+1566	CORELVIDEO - CORELVIDEO
+1567	JLICELMD - jlicelmd
+1568	TSSPMAP - tsspmap
+1569	ETS - ets
+1570	ORBIXD - orbixd
+1571	RDB-DBS-DISP - Oracle Remote Data Base
+1572	CHIP-LM - Chipcom License Manager
+1573	ITSCOMM-NS - itscomm-ns
+1574	MVEL-LM - mvel-lm
+1575	ORACLENAMES - oraclenames
+1576	MOLDFLOW-LM - moldflow-lm
+1577	HYPERCUBE-LM - hypercube-lm
+1578	JACOBUS-LM - Jacobus License Manager
+1579	IOC-SEA-LM - ioc-sea-lm
+1580	TN-TL-R1 - tn-tl-r1
+1581	VMF-MSG-PORT - vmf-msg-port
+1582	TAMS-LM - Toshiba America Medical Systems
+1583	SIMBAEXPRESS - simbaexpress
+1584	TN-TL-FD2 - tn-tl-fd2
+1585	INTV - intv
+1586	IBM-ABTACT - ibm-abtact
+1587	PRA_ELMD - pra_elmd
+1588	TRIQUEST-LM - triquest-lm
+1589	VQP - VQP
+1590	GEMINI-LM - gemini-lm
+1591	NCPM-PM - ncpm-pm
+1592	COMMONSPACE - commonspace
+1593	MAINSOFT-LM - mainsoft-lm
+1594	SIXTRAK - sixtrak
+1595	RADIO - radio
+1596	RADIO-SM - radio-sm
+1597	ORBPLUS-IIOP - orbplus-iiop
+1598	PICKNFS - picknfs
+1599	SIMBASERVICES - simbaservices
+1600	ISSD -
+1601	AAS - aas
+1602	INSPECT - inspect
+1603	PICODBC - pickodbc
+1604	ICABROWSER - icabrowser
+1605	SLP - Salutation Manager (Salutation Protocol)
+1606	SLM-API - Salutation Manager (SLM-API)
+1607	STT - stt
+1608	SMART-LM - Smart Corp. License Manager
+1609	ISYSG-LM - isysg-lm
+1610	TAURUS-WH - taurus-wh
+1611	ILL - Inter Library Loan
+1612	NETBILL-TRANS - NetBill Transaction Server
+1613	NETBILL-KEYREP - NetBill Key Repository
+1614	NETBILL-CRED - NetBill Credential Server
+1615	NETBILL-AUTH - NetBill Authorization Server
+1616	NETBILL-PROD - NetBill Product Server
+1617	NIMROD-AGENT - Nimrod Inter-Agent Communication
+1618	SKYTELNET - skytelne
+1619	XS-OPENBACKUP - xs-openbackup
+1620	FAXPORTWINPORT - faxportwinport
+1621	SOFTDATAPHONE - softdataphone
+1622	ONTIME - ontime
+1623	JALEOSND - jaleosnd
+1624	UDP-SR-PORT - udp-sr-port
+1625	SVS-OMAGENT - svs-omagent
+1636	CNCP - CableNet Control Protocol
+1637	CNAP - CableNet Admin Protocol
+1638	CNIP - CableNet Info Protocol
+1639	CERT-INITIATOR - cert-initiator
+1640	CERT-RESPONDER - cert-responder
+1641	INVISION - InVision
+1642	ISIS-AM - isis-am
+1643	ISIS-AMBC - isis-ambc
+1644	SAISEH - Satellite-data Acquisition System 4
+1645	DATAMETRICS - datametrics
+1646	SA-MSG-PORT - sa-msg-port
+1647	RSAP - rsap
+1648	CONCURRENT-LM - concurrent-lm
+1649	INSPECT - inspect
+1650	NKD -
+1651	SHIVA_CONFSRVR - shiva_confsrvr
+1652	XNMP - xnmp
+1653	ALPHATECH-LM - alphatech-lm
+1654	STARGATEALERTS - stargatealerts
+1655	DEC-MBADMIN - dec-mbadmin
+1656	DEC-MBADMIN-H - dec-mbadmin-h 1657
+1658	SIXNETUDR - sixnetudr
+1659	SG-LM - Silicon Grail License Manager
+1660	SKIP-MC-GIKREQ - skip-mc-gikreq
+1661	NETVIEW-AIX-1 - netview-aix-1
+1662	NETVIEW-AIX-2 - netview-aix-2
+1663	NETVIEW-AIX-3 - netview-aix-3
+1664	NETVIEW-AIX-4 - netview-aix-4
+1665	NETVIEW-AIX-5 - netview-aix-5
+1666	NETVIEW-AIX-6 - netview-aix-6
+1667	NETVIEW-AIX-7 - netview-aix-7
+1668	NETVIEW-AIX-8 - netview-aix-8
+1669	NETVIEW-AIX-9 - netview-aix-9
+1670	NETVIEW-AIX-10 - netview-aix-10
+1671	NETVIEW-AIX-11 - netview-aix-11
+1672	NETVIEW-AIX-12 - netview-aix-12
+1673	PROSHARE-MC-1 - Intel Proshare Multicast
+1674	PROSHARE-MC-2 - Intel Proshare Multicast
+1675	PDP - Pacific Data Products
+1676	NEFCOMM1 - netcomm1
+1677	GROUPWISE - groupwise
+1723	PPTP - pptp
+1807	SpySender
+1812	RADIUS - RADIUS Authentication Protocol
+1813	RADACCT - RADIUS Accounting Protocol
+1827	PCM - PCM Agent
+1981	Shockrave
+1986	LICENSEDAEMON - cisco license management
+1987	TR-RSRB-P1 - cisco RSRB Priority 1 port
+1988	TR-RSRB-P2 - cisco RSRB Priority 2 port
+1989	MSHNET - MHSnet system
+1990	STUN-P1 - cisco STUN Priority 1 port
+1991	STUN-P2 - cisco STUN Priority 2 port
+1992	IPSENDMSG - IPsendmsg
+1993	SNMP-TCP-PORT - cisco SNMP TCP port
+1994	STUN-PORT - cisco serial tunnel port
+1995	PERF-PORT - cisco perf port
+1996	TR-RSRB-PORT - cisco Remote SRB port
+1997	GDP-PORT - cisco Gateway Discovery Protocol
+1998	X25-SVC-PORT - cisco X.25 service (XOT)
+1999	TCP-ID-PORT - cisco identification port
+2000	CALLBOOK -
+2001	DC -
+2002	GLOBE -
+2003	CFINGER - cfinger
+2004	MAILBOX -
+2005	BERKNET -
+2006	INVOKATOR -
+2007	DECTALK -
+2008	CONF -
+2009	NEWS -
+2010	SEARCH -
+2011	RAID-CC - raid
+2012	TTYINFO -
+2013	RAID-AM -
+2014	TROFF -
+2015	CYPRESS -
+2016	BOOTSERVER -
+2017	CYPRESS-STAT -
+2018	TERMINALDB -
+2019	WHOSOCKAMI -
+2020	XINUPAGESERVER -
+2021	SERVEXEC -
+2022	DOWN -
+2023	XINUEXPANSION3 -
+2024	XINUEXPANSION4 -
+2025	ELLPACK -
+2026	SCRABBLE -
+2027	SHADOWSERVER -
+2028	SUBMITSERVER -
+2030	DEVICE2 -
+2032	BLACKBOARD -
+2033	GLOGGER -
+2034	SCOREMGR -
+2035	IMSLDOC -
+2038	OBJECTMANAGER -
+2040	LAM -
+2041	INTERBASE -
+2042	ISIS - isis
+2043	ISIS-BCAST - isis-bcast
+2044	RIMSL -
+2045	CDFUNC -
+2046	SDFUNC -
+2047	DLS -
+2048	DLS-MONITOR - dls-monitor
+2064	DISTRIB-NETASSHOLES
+2065	DLSRPN - Data Link Switch Read Port Number
+2067	DLSWPN - Data Link Switch Write Port Number
+2080	Wingate Winsock Redirector Service
+2103	ZEPHYR-CLT - Zephyr Serv-HM Conncetion
+2104	Zephyr Host Manager
+2105	EKLOGIN - Kerberos (v4) Encrypted RLogin
+2106	EKSHELL - Kerberos (v4) Encrypted RShell
+2108	RKINIT - Kerberos (v4) Remote Initialization
+2111	KX - X Over Kerberos
+2112	KIP - IP Over Kerberos
+2115	Bugs
+2120	KAUTH - Remote kauth
+2140	Deep Throat, The Invasor
+2155	Illusion Mailer
+2201	ATS - Advanced Training System Program
+2221	UNREG-AB1 - Allen-Bradley unregistered port
+2222	UNREG-AB2 - Allen-Bradley unregistered port
+2223	INREG-AB3 - Allen-Bradley unregistered port
+2232	IVS-VIDEO - IVS Video default
+2241	IVSD - IVS Daemon
+2283	HVL Rat5
+2301	CIM - Compaq Insight Manager
+2307	PEHELP - pehelp
+2401	CVSPSERVER - CVS Network Server
+2430	VENUS -
+2431	VENUS-SE -
+2432	CODASRV -
+2433	CODASRV-SE -
+2500	RTSSERV - Resource Tracking system server
+2501	RTSCLIENT - Resource Tracking system client
+2564	HP-3000-TELNET - HP 3000 NS/VT block mode telnet
+2565	Striker
+2583	WinCrash
+2592	NETREK[GAME] - netrek[game]
+2600	Digital Rootbeer
+2601	ZEBRA - Zebra VTY
+2602	RIPD - RIPd VTY
+2603	RIPNGD - RIPngd VTY
+2604	OSPFD - OSPFd VTY
+2605	BGPD - BGPd VTY
+2627	WEBSTER -
+2638	Sybase Database
+2700	TQDATA - tqdata
+2766	LISTEN - System V Listener Port
+2784	WWW-DEV - world wide web - development
+2800	Phineas Phucker
+2989	(UDP) - RAT
+3000	UNKNOWN - Unknown Service
+3001	NESSUSD - Nessus Security Scanner
+3005	DESLOGIN - Encrypted Symmetric Telnet
+3006	DESLOGIND -
+3024	WinCrash
+3049	NSWS -
+3064	DISTRIB-NET-PROXY - Stupid closed source distrib.net proxy
+3086	SJ3 - SJ3 (Kanji Input)
+3128	RingZero -
+3129	Masters Paradise -
+3130	SQUID-IPC -
+3141	VMODEM - VMODEM
+3150	Deep Throat, The Invasor
+3155	HTTP Proxy
+3264	CCMAIL - cc:mail/lotus
+3295	PORT
+3306	MYSQL
+3333	DEC-NOTES - DEC Notes
+3421	BMAP - Bull Apprise portmapper
+3454	MIRA - Apple Remote Access Protocol
+3455	PRSVP - RSVP Port
+3456	VAT - VAT default data
+3457	VAT-CONTROL - VAT default control
+3459	Eclipse 2000
+3700	Portal of Doom
+3791	Eclypse
+3801	(UDP) - Eclypse
+3871	PORT
+3900	UDT_OS - Unidata UDT OS
+3905	PORT
+3908	PORT
+3920	PORT
+3921	PORT
+3922	PORT
+3923	PORT
+3925	PORT
+3975	PORT
+3984	MAPPER-NODEMGR - MAPPER network node manager
+3985	MAPPER-MAPETHD - MAPPER TCP/IP server
+3986	MAPPER-WS_ETHD - MAPPER workstation server
+3996	PORT
+4000	UNKNOWN - Unknown Service
+4001	PORT
+4008	NETCHEQUE - NetCheque accounting
+4045	LOCKD - NFS Lock Daemon
+4092	WinCrash
+4132	NUTS_DEM - NUTS Daemon
+4133	NUTS_BOOTP - NUTS Bootp Server
+4321	RWHOIS - Remote Who Is
+4333	MSQL - Mini SQL Server
+4343	UNICALL - UNICALL
+4444	NV-VIDEO - NV Video default
+4500	SAE-URN - sae-urn
+4501	URN-X-CDCHOICE - urn-x-cdchoice
+4557	FAX - fax
+4559	HYLAFAX - HylaFAX cli-svr Protocol
+4567	File Nail
+4590	ICQTrojan
+4672	RFA - remote file access server
+4899	RAdmin - Remote Administrator
+5000	UNKNOWN - Unknown Service
+5001	COMMPLEX-LINK -
+5002	RFE - radio free ethernet
+5003	CLARIS-FMPRO - Claris FileMaker Pro
+5004	AVT-PROFILE-1 - avt-profile-1
+5005	AVT-PROFILE-2 - avt-profile-2
+5010	TELELPATHSTART - TelepathStart
+5011	TELELPATHATTACK - TelepathAttack
+5031	NetMetro
+5050	MMCC - multimedia conference control tool
+5075	IISADMIN 
+5145	RMONITOR_SECURE -
+5190	AOL - America-Online
+5191	AOL-1 - AmericaOnline1
+5192	AOL-2 - AmericaOnline2
+5193	AOL-3 - AmericaOnline3
+5232	SGI-DGL - SGI Distributed Graphics
+5236	PADL2SIM
+5300	HACL-HB - HA Cluster Heartbeat
+5301	HACL-GS - HA Cluster General Services
+5302	HACL-CFG - HA Cluster Configuration
+5303	HACL-PROBE - HA Cluster Probing
+5304	HACL-LOCAL
+5305	HACL-TEST
+5308	CFENGINE -
+5321	Firehotcker
+5376	MS FTP
+5400	Blade Runner, Back Construction
+5401	Blade Runner, Back Construction
+5402	Blade Runner, Back Construction
+5432	POSTGRES - Postgres Database Server
+5500	Hotline Server
+5510	SECUREIDPROP - ACE/Server Services
+5512	Illusion Maker
+5520	SDLOG - ACE/Server Services
+5530	SDSERV - ACE/Server Services
+5540	SDXAUTHD - ACE/Server Services
+5550	Xtcp
+5555	ServeMe
+5556	Bo
+5557	Bo
+5569	Robo-Hack
+5631	PCANYWHEREDATA -
+5632	PCANYWHERESTAT -
+5650	MS FTP PORT
+5680	CANNA - Canna (Jap Input)
+5713	PROSHAREAUDIO - proshare conf audio
+5714	PROSHAREVIDEO - proshare conf video
+5715	PROSHAREDATA - proshare conf data
+5716	PROSHAREREQUEST - proshare conf request
+5717	PROSHARENOTIFY - proshare conf notify
+5742	WinCrash
+5800	VNC - Virtual Network Computing
+5801	VNC - Virtual Network Computing
+5858	NETREK[GAME] - netrek[game]
+5900	VNC - Virtual Network Computing
+5901	VNC-1 - Virtual Network Computing Display
+5902	VNC-2 - Virtual Network Computing Display
+5977	NCD-PREF-TCP - NCD Preferences
+5978	NCD-DIAG-TCP - NCD Diagnostics
+5979	NCD-CONF-TCP - NCD Configuration
+5997	NCD-PREF - NCD Preferences Telnet
+5998	NCD-DIAG - NCD Diagnostics Telnet
+5999	NCD-CONF - NCD Configuration Telnet
+6000	X11 - X Window System
+6001	X11:1 - X Window Server
+6002	X11:2 - X Window Server
+6003	X11:3 - X Window Server
+6004	X11:4 - X Window Server
+6005	X11:5 - X Window Server
+6006	X11:6 - X Window Server
+6007	X11:7 - X Window Server
+6008	X11:8 - X Window Server
+6009	X11:9 - X Window Server
+6110	SOFTCM - HP SoftBench CM
+6111	SPC - HP SoftBench Sub-Process Control
+6112	DTSPCD - dtspcd
+6141	META-CORP - Meta Corporation License Manager
+6142	ASPENTEC-LM - Aspen Technology License Manager
+6143	WATERSHED-LM - Watershed License Manager
+6144	STATSCI1-LM - StatSci License Manager - 1
+6145	STATSCI2-LM - StatSci License Manager - 2
+6146	LONEWOLF-LM - Lone Wolf Systems License Manager
+6147	MONTAGE-LM - Montage License Manager
+6148	RICARDO-LM - Ricardo North America License Manager
+6149	TAL-POD - tal-pod
+6400	The Thing
+6455	SKIP-CERT-RECV - SKIP Certificate Receive
+6456	SKIP-CERT-SEND - SKIP Certificate Send
+6558	XDSXDM -
+6660	IRC-SERV - irc-serv
+6661	IRC-SERV - irc-serv
+6662	IRC-SERV - irc-serv
+6663	IRC-SERV - irc-serv
+6664	IRC-SERV - irc-serv
+6665	IRC-SERV - irc-serv
+6666	IRC-SERV - irc-serv
+6667	IRC - irc
+6668	IRC - irc
+6669	Vampyre
+6670	DeepThroat
+6671	IRC-SERV - irc-serv
+6771	DeepThroat
+6776	BackDoor-G, SubSeven
+6912	Shit Heep
+6939	Indoctrination
+6969	ACMSODA - acmsoda
+6970	GateCrasher, Priority, IRC 3
+7000	AFSSERV - file server itself
+7001	UNKNOWN - Unknown Service
+7002	UNKNOWN - Unknown Service
+7003	AFS3-VLSERVER - volume location database
+7004	AFS3-KASERVER - AFS/Kerberos authentication service
+7005	AFS3-VOLSER - volume managment server
+7006	AFS3-ERRORS - error interpretation service
+7007	AFS3-BOS - basic overseer process
+7008	AFS3-UPDATE - server-to-server updater
+7009	AFS3-RMTSYS - remote cache manager service
+7010	UPS-ONLINET - onlinet uninterruptable power supplies
+7100	FONT-SERVICE - X Font Service
+7120	IISADMIN 
+7121	VIRPROT-LM - Virtual Prototypes License Manager
+7200	FODMS - FODMS FLIP
+7201	DLIP - DLIP
+7300	NetMonitor
+7301	NetMonitor
+7306	NetMonitor
+7307	NetMonitor
+7308	NetMonitor
+7309	NetMonitor
+7326	ICB - Internet Citizen`s Band
+7648	CUCME-1 - CucMe live video/Audio Server
+7649	CUCME-2 - CucMe live video/Audio Server
+7650	CUCME-3 - CucMe live video/Audio Server
+7651	CUCME-4 - CucMe live video/Audio Server
+7770	IRC
+7777	CBT - cbt
+7789	Back Door Setup, ICKiller
+8000	Generic - Shared service port
+8001	Generic - Shared service port
+8002	Generic - Shared service port
+8003	Generic - Shared service port
+8004	Generic - Shared service port
+8005	Generic - Shared service port
+8006	Generic - Shared service port
+8007	Generic - Shared service port
+8008	Generic - Shared service port
+8009	Generic - Shared service port
+8010	Generic - Shared service port
+8080	Generic - Shared service port
+8081	Generic - Shared service port
+8082	Generic - Shared service port
+8083	Generic - Shared service port
+8084	Generic - Shared service port
+8085	Generic - Shared service port
+8086	Generic - Shared service port
+8087	Generic - Shared service port
+8088	Generic - Shared service port
+8100	Generic - Shared service port
+8101	Generic - Shared service port
+8102	Generic - Shared service port
+8103	Generic - Shared service port
+8104	Generic - Shared service port
+8105	Generic - Shared service port
+8106	Generic - Shared service port
+8107	Generic - Shared service port
+8108	Generic - Shared service port
+8109	Generic - Shared service port
+8110	Generic - Shared service port
+8181	Generic - Shared service port
+8383	Generic - Shared service port
+8450	NPMP - npmp
+8765	Ultraseek
+8807	DEMOS NNTP
+8888	SiteScope - SiteScope Remote Server Monitoring
+8892	SEOSLOAD - eTrust ACX
+9000	UNKNOWN - Unknown Service
+9001	UNKNOWN
+9010	SERVICE
+9090	ZEUS-ADMIN - Zeus Admin Server
+9095	SERVICE
+9100	JETDIRECT - HP JetDirect Card
+9200	WAP - Wireless Application Protocol
+9201	WAP - Wireless Application Protocol
+9202	WAP - Wireless Application Protocol
+9203	WAP - Wireless Application Protocol
+9400	InCommand
+9535	MAN -
+9872	Portal of Doom
+9873	Portal of Doom
+9874	Portal of Doom
+9875	Portal of Doom
+9876	SD - Session Director
+9989	iNi-Killer
+9998	DEMOS SMTP
+9999	DISTINCT - distinct
+10005	STEL - Secure Telnet
+10067	(UDP) - Portal of Doom
+10080	AMANDA - Amanda Backup Util
+10082	AMANDA-IDX - Amanda Indexing
+10083	AMIDXTAPE - Amanda Tape Indexing
+10101	BrainSpy
+10167	(UDP) - Portal of Doom
+10520	Acid Shivers
+10607	Coma
+11000	Senna Spy
+11223	Progenic trojan
+11371	PKSD - PGP Pub. Key Server
+12067	Gjamer
+12223	Hack´99 KeyLogger
+12345	NB - NetBus
+12346	GabanBus, NetBus, X-bill
+12361	Whack-a-mole
+12362	Whack-a-mole
+12631	Whackjob
+13000	Senna Spy
+13326	CROSSFIRE[GAME] - crossfire[game]
+16660	Stacheldraht Master Serverd
+16969	Priority
+17007	ISODE-DUA -
+17300	Kuang2 The Virus
+18000	BIIMENU - Beckman Instruments Inc.
+20000	Millennium
+20001	Millennium backdoor
+20005	BTX - Xcept4
+20034	Netbus 2 Pro
+20203	Logged
+21544	Girlfriend
+21845	WEBPHONE - webphoned 21846
+21847	CONNECT SERVER - connect server
+22222	Prosiak
+22273	WNN6 - Wnn6 (Jap. Input)
+22289	WNN6_CN - Wnn6 (Chi. Input)
+22305	WNN6_KR - Wnn6 (Kor. Input)
+22321	WNN6_TW - Wnn6 (Tai. Input)
+23456	Evil FTP, Ugly FTP , Whack Job
+23476	Donald Dick
+23477	Donald Dick
+24326	Netscape Server
+25000	ICL-TWOBASE1 - icl-twobase1
+25001	ICL-TWOBASE2 - icl-twobase2
+25002	ICL-TWOBASE3 - icl-twobase3
+25003	ICL-TWOBASE4 - icl-twobase4
+25004	ICL-TWOBASE5 - icl-twobase5
+25005	ICL-TWOBASE6 - icl-twobase6
+25006	ICL-TWOBASE7 - icl-twobase7
+25007	ICL-TWOBASE8 - icl-twobase8
+25008	ICL-TWOBASE9 - icl-twobase9
+25009	ICL-TWOBASE10 - icl-twobase10
+26000	QUAKEXX
+26001	QUAKEXX
+26002	QUAKEXX
+26208	WNN6_DS - Wnn6 (Dserver)
+26274	(UDP) - Delta Source
+27119	QUAKEXX
+27444	TRINOO_BCAST - Trinoo Attack Tool
+27500	QUAKEXX
+27501	QUAKEXX
+27502	QUAKEXX
+27665	TRINOO_MASTER - Trinoo Attack Tool
+27910	QUAKEXX
+27911	QUAKEXX
+27912	QUAKEXX
+27913	QUAKEXX
+27920	QUAKEXX
+27960	QUAKE3SERVER - Quake 3 Arena Server
+29891	(UDP) - The Unexplained
+29970	PORT
+30029	AOL Trojan
+30100	NetSphere
+30101	Netsphere
+30102	NetSphere
+30303	Sockets de Troie
+30999	Kuang2
+31335	TRINOO_REGISTER - Trinoo Attack Tool
+31336	Whack
+31337	BO - BackOrifice
+31338	NetSpy DK
+31457	TETRINET (Tetris GAME)
+31666	BO Whack
+31785	Hack´a´Tack
+31787	Hack´a´Tack
+31788	Hack´a´Tack
+31789	Hack´a´Tack (udp)
+31791	Hack´a´Tack (udp)
+31792	Hack´a´Tack
+32000	Generic - Shared service port
+33333	Prosiak
+33911	Spirit 2001a
+34324	BigGluck, TN
+40193	NetWare
+40412	The Spy
+40421	Agent 40421, Masters Paradise
+40422	Masters Paradise
+40423	Masters Paradise
+40426	Masters Paradise
+43188	REACHOUT -
+44333	WinRoute
+47262	(UDP) - Delta Source
+47557	DBBROWSE - Databeam Corporation
+50505	Sockets de Troie
+50766	Fore , Schwindler
+53001	Remote Window Shutdown
+54320	BO 2K
+54321	SchoolBus
+60000	Deep Throat
+61466	TeleCommando
+65000	Devil
+65301	PCANYWHERE -
+1947	HLServer

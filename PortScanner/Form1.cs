@@ -166,13 +166,12 @@ namespace PortScanner
             {
                 StreamReader loadSettings = new StreamReader(Application.StartupPath + "\\ports.txt", false);
                 string buffer = loadSettings.ReadLine();
-                int end = int.Parse(buffer);
-                for (int i = 1; i <= end; i++)//Загрузка из файла
+                while (buffer != null)
                 {
-                    buffer = loadSettings.ReadLine();
                     string[] ink = new string[2];
                     ink = buffer.Split('	');
                     dict.Add(int.Parse(ink[0]), ink[1]);
+                    buffer = loadSettings.ReadLine();
                 }
             }
             else
