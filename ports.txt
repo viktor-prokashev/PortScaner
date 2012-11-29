@@ -1,4 +1,3 @@
-1428
 1	TCP-MUX - TCP Port Service Multiplexer
 2	COMPRESSNET - Management Utility
 3	COMPRESSNET - Compression Process
@@ -1427,8 +1426,3 @@
 65000	Devil
 65301	PCANYWHERE -
 1947	HLServer
-	
-	
-	
-	
-	
